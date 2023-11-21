@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your AI Website</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      /* Custom Styles */
+      body {
+        background-color: #f8f9fa;
+        padding-top: 70px; /* Adjusted to accommodate the fixed navbar */
+      }
+
+      .section {
+        padding: 40px 0;
+      }
+
+      .section img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .section h2 {
+        margin-top: 20px;
+      }
+
+      .section p {
+        color: #555;
+      }
+
+      .read-more {
+        color: #007bff;
+        text-decoration: none;
+      }
+
+      .read-more:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Your AI Website</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#index">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#members">Members</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="table.html">table</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="index" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="https://placekitten.com/800/600" alt="AI Image 1" />
+          </div>
+          <div class="col-md-6">
+            <h2>AI Section 1</h2>
+            <p>
+              Description about AI. This could be a brief overview of the topic.
+              <a href="#" class="read-more">Read More</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 order-md-2">
+            <img src="https://placekitten.com/800/600" alt="AI Image 2" />
+          </div>
+          <div class="col-md-6 order-md-1">
+            <h2>About AI</h2>
+            <p>
+              Learn more about AI and its applications. This could be an
+              informative section. <a href="about.html" class="read-more">Read More</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="https://placekitten.com/800/600" alt="AI Image 3" />
+          </div>
+          <div class="col-md-6">
+            <h2>Contact Us</h2>
+            <p>
+              Get in touch with us for any inquiries or feedback. We'd love to
+              hear from you.
+              <a href="contact.html" class="read-more">Read More</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Members Section -->
+    <section id="members" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 order-md-2">
+            <img src="https://placekitten.com/800/600" alt="AI Image 4" />
+          </div>
+          <div class="col-md-6 order-md-1">
+            <h2>Our Team</h2>
+            <p>
+              Meet our talented team members who contribute to the field of AI.
+              <a href="members.html" class="read-more">Read More</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+            <table class="table text-center">
+                <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Position</th>
+                    <th scope="col">Contact</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td rowspan="2">John Doe</td>
+                    <td>CEO</td>
+                    <td>Email: john.doe@example.com</td>
+                </tr>
+                <tr>
+                    <td>CTO</td>
+                    <td>Phone: +1 123-456-7890</td>
+                </tr>
+                <tr>
+                    <td colspan="3">For general inquiries, please contact info@example.com</td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </section>
+  
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      &copy; 2023 Your AI Website
+    </footer>
+
+    <!-- Bootstrap JS and jQuery (required for Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
