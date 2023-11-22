@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      /* Custom Styles */
+      body {
+        background-color: #f8f9fa;
+        padding-top: 70px; /* Adjusted to accommodate the fixed navbar */
+      }
+
+      .section {
+        padding: 40px 0;
+      }
+
+      .section img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .section h2 {
+        margin-top: 20px;
+      }
+
+      .section p {
+        color: #555;
+      }
+
+      .read-more {
+        color: #007bff;
+        text-decoration: none;
+      }
+
+      .read-more:hover {
+        text-decoration: underline;
+      }
+
+      .nav-item:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Your AI Website</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="members.html">Members</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="table.html">Content</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="project.html">Project</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="index" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/2.jpeg" alt="AI Image 1" style="height: 600px; width: 800px;"/>
+          </div>
+          <div class="col-md-6">
+            <h2>AlphaGo:</h2>
+            <p>
+                Developed by DeepMind, AlphaGo is an AI program that plays the board game Go. 
+                It made headlines in 2016 by defeating the world champion Go player, Lee Sedol. 
+                The success of AlphaGo demonstrated the power of deep learning and reinforcement 
+                learning in mastering complex games.
+            </p>
+            <h2>IBM Watson:</h2>
+            <p>
+                IBM Watson is a cognitive computing system that has been applied to various fields, 
+                including healthcare and finance. Watson's ability to understand natural language
+                and analyze vast amounts of data
+            </p>
+            <h2>
+                OpenAI's GPT Models:
+            </h2>
+            <p>
+                OpenAI has developed several powerful natural language processing models, 
+                such as GPT-3 (Generative Pre-trained Transformer 3). These models can 
+                generate human-like text, answer questions, and perform a wide range of 
+                language-related tasks.
+            </p>
+            <h2>
+                Tesla Autopilot:
+            </h2>
+            <p>
+                Tesla's Autopilot system uses AI and machine learning for autonomous driving. 
+                The system processes data from cameras, radar, and sensors to navigate and 
+                control the vehicle. While full self-driving capability is still i
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      &copy; 2023 Your AI Website
+    </footer>
+
+    <!-- Bootstrap JS and jQuery (required for Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
